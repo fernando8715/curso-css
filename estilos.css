@@ -1,0 +1,388 @@
+/* ESTILO DE LA PAGINA INICIAL */
+
+/* Definir el tipo de letra del body */
+body{
+    font-family: Be Vietnam Pro;
+     /*rellena completamente la pantalla con el fondo de pantalla*/
+    margin: 0px;
+    padding: 0px;
+}
+
+/*define el tamaño y color de la letra del parrafo*/
+.autor p{
+    font-size: 25px;
+    color: aliceblue;
+    
+}
+
+/*define el estilo de la lista*/
+li{
+    list-style: none; /* oculta las viñetas de la lista */
+    margin-right: 30px;  /*da una margen a la derecha de cada elemento*/
+    font-size: 17px; /*define el tamaño de la letra*/
+}
+
+.menu{
+    display: flex; /*esta propiedad permite que los elementos sean manejables*/
+    justify-content: space-between; /*alinea los elementos a lo largo del eje horizontal */
+    align-items: center; /*coloca a la misma altura los elementos del contenedor*/ 
+    padding-top: 20px; /*establece margen superior del menu*/
+    color: black; /*color de la fuente*/
+}
+
+.lista_menu{
+    display: flex; /*la lista se hace un elemento flexible para poder manipularlos*/
+}
+
+/*dar formato al titulo h1*/
+.titular h1{
+    margin-top: 140px; /*margen superior*/
+    margin-bottom: 0px; /*margen inferior del titulo*/
+    font-family: Crimson Text;
+    font-size: 70px;
+}
+
+.titular h2{
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+a{
+    text-decoration: none; /*decora el enlace y quita la linea con la propiedad none*/
+    font-size: 20px;
+    background: #078590; /*color de fondo*/
+    padding: 17px 23px 17px 23px; /*espaciado interno del elemento, arriba, derecha, abajo, izquierda*/
+    color: white; /*color del texto"*/
+}
+
+.titular
+{
+    text-align: center; /*Coloca los elementos del bloque en el centro*/
+    color:black;
+}
+
+header
+{
+    background: url(logos/fondo.jpg);
+    height: 100vh;
+    background-size:cover; 
+}
+
+.contenedor
+{
+    max-width: 1280px; /*medida de pantallas de escritorio*/
+    width: 90%;  /*hace que los elementos esten lejos del borde  */
+    margin: auto; /*auto para que los elementos esten centrados*/
+    padding: 0px;
+}
+
+.contenedor h3 
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal; /*quita la negrita al titulo*/
+    margin-top: 30px;
+    
+}
+
+/*HOJA SOBRE MI*/
+/*da forma al contenedor de la clase sobre mi*/
+.sobre_mi
+{
+    display: flex;
+    justify-content: space-evenly; /*alinea los elementos a lo largo del eje principal*/
+    color: black;
+    font-size: 18px;
+    align-items: center; /*coloca a la misma altura los elementos del contenedor*/
+    padding: 0px 0px 70px 0px;
+}
+
+.parrafo_enlace
+{
+    width: 55%;  /*especifica que ocupara el espacio del parrafo*/
+}
+
+
+.parrafo_enlace a
+{
+    margin-left: 260px;  /*colocando margen a la izquierda para corre el enlace a la derecha*/
+    display: inline-block; /*convierte un elemento en linea en un elemento en bloque*/
+    margin-top: 20px;
+}
+
+/* PAGINA DE SERVICIOS */
+
+.titleSer
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    margin-left: 0px;
+}
+
+.contenedor_servicios
+{
+    display: flex;
+    flex-wrap: wrap; /*me permite colocar varios objetos en linea, depende del tamaño*/
+    justify-content: space-around; /*distribuye los elementos flexibles en linea*/
+    color: mintcream;
+    
+}
+
+.servicio
+{
+    width: 29%;
+    text-align: left;
+    padding: 8px; /*espaciado interno, esto se suma al width*/
+    border-radius: 13px;
+    margin-bottom: 30px; /*margen hacia abajo*/
+    align-items: center
+}
+
+.violeta
+{
+    background-color: #5055df; /*color de fondo*/
+}
+
+.celeste
+{
+    background-color:#40a8fa;
+}
+
+.contenedor_servicios h4
+{
+    font-size: 25px;
+}
+
+.servicio img
+{
+    float:right; /*corre los elementos a la derecha*/
+    
+}
+
+.servicio p
+{
+    font-size: 13px;
+    height: 100px; /*da un alto definido a cada parrafo y los iconos quedan a la misma altura*/
+}
+
+span
+{
+    font-size: 80px; /*tamaño a las flechas*/
+    color: teal;
+}
+
+.owl-nav
+{
+    text-align: center; /*centra las flechas */
+}
+
+/* hoja del por que trabajar conmigo */
+h3
+{
+    font-size: 40px;
+    text-align: center;
+    font-weight:normal; /*quita la negrilla*/
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.contenedor_porque
+{
+    display: flex;
+    justify-content: space-around; /*espacio entre cada elemento*/
+    text-align: center;
+}
+
+.mis_trabajos
+{
+    margin-bottom: 0px;
+}
+
+.porque_trab
+{
+    width: 30%;
+}
+
+.porque_trab p
+{
+    font-size: 14px;
+    line-height: 22px; /*alto de linea en los parrafos*/
+}
+
+.porque_trab h4
+{
+    margin: 0px;
+}
+
+.trabajar_conmigo
+{
+    margin: 0px 0px 30px 0px !important;
+    font-size: 12px;
+}
+
+/*----pagina blog-----*/
+
+#blog
+{
+    background: #f5f7f8;
+    padding-top: 1px; /*espacio arriba*/
+    padding-bottom: 80px; /*espacio abajo*/
+}
+
+#contenedor_publicaciones
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.publicacion
+{
+    width: 30%; /*reduce el tamaño de los elementos que esten en la clase*/
+    box-shadow: 5px 6px 12px 3px #99A3A4; /*aplica sombra*/
+    padding-bottom: 20px;
+}
+
+#blog img
+{
+    width: 100%;
+}
+
+#blog h4
+{
+    font-size: 23px;
+    margin: 0; /*quita el margen por defecto de la etiqueta h*/
+    padding: 20px; /*aplica espacio para todos los lados*/
+}
+
+#blog p
+{
+    color: rgb(97, 89, 89);
+    font-size: 14px;
+    line-height: 23px;
+    padding: 10px 20px 20px 20px; /*el espaciado verde es padding y el naranja el margin - en la opcion inspeccionar*/
+    margin-top: 0px;
+}
+
+#blog a
+{
+    display: inline-block; /*pasa un elemento en linea a un elemento en bloque*/
+    margin-left: 20px;
+}
+
+.publicacion_segunda img
+{
+    height: 254px;
+}
+
+
+.primer_parrafo
+{
+    margin-bottom: 35px;
+}
+
+#que_esperas
+{
+    background: linear-gradient(rgb(84,93,220),rgb(96,171,245));
+    text-align: center;
+    padding: 30px 0px 70px 0px;
+}
+
+#que_esperas h3
+{
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+#que_esperas a
+{
+    font-size: 14px;
+    padding: 15px 40px 15px 40px;
+    transition: 1s;
+    font-weight: bolder;
+}
+
+#que_esperas a:hover
+{
+    color: black;
+    transition: 1s; /*esta propedad con el hover permite cambio de color al acercar el mouse*/
+    transform: scale(1.1); /*esta propiedad cambia de tamaño al acercar mouse*/
+    display: inline-block; /*hay que configurarlo a elemento en bloque para utilizar scale*/    
+}
+
+#whatsapp a
+{
+    background: none; /*quita el fondo por defecto*/
+    position: fixed; /*la imagen que esta dentro de la etiqueta a se quedara fija*/
+    top: 84%; /*la imagen estara al 85% de la pagina*/
+    right: 1%; /*la imagen estara a la derecha de la pagina*/
+    /*una vez se utilice la propiedad position se puede usar la propiedad top y right*/
+}
+
+.menu_icon
+{
+    display: none; /*oculatmos icono antes del media*/
+}
+
+/* ---------Responsive design -------------*/
+/* @media (max-width: 480px) es para que el maximo de ancho de la pantalla sea de 480px 
+para los dispositivos moviles*/
+@media (max-width: 480px){
+    nav
+    {
+        position: absolute; 
+        top: 55px;
+        left: 0px;
+        background: rgba(129, 198, 238, 0.801);
+        width: 100%; /*ocupa el 100% de la pantalla*/
+        display: none; /*ocultamos el menu navegacion*/
+    }
+
+    nav .lista_menu
+    {
+        flex-direction: column; /*coloca los elementos de la lista uno debajo del otro*/
+    }
+
+    .menu_icon
+    {
+        display: block; /*mostramos el icono del menu*/
+        width: 23px;
+    }
+
+    .titular
+    {
+        margin-top: 155px;
+    }
+
+    .titular h1
+    {
+        font-size: 45px;
+    }
+
+    h2
+    {
+        font-size: 18px;
+    }
+
+    a
+    {
+        font-size: 13px;
+        padding: 15px 16px 15px 16px;
+    }
+    .sobre_mi
+    {
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .sobre_mi img
+    {
+        width: 270px;
+        height: 270px;
+    }
+
+    .sobre_mi .parrafo_enlace
+    {
+        width: 94%;
+    }
+}

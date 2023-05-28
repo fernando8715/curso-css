@@ -1,0 +1,56 @@
+body
+{
+    font-family: Poppins;
+}
+
+p
+{
+    font-size: 20px;
+}
+
+li
+{
+    list-style: none;
+    margin-right: 25px; /*coloca un margen a la derecha de cada elemento*/
+}
+
+.menu_pag1
+{
+    display: flex; /*permite manejar los elementos*/
+    justify-content: space-between; /*justifica el contenido en la horizontal*/
+    align-items: center; /*alinea los elementos en la vertical*/
+    
+}
+
+ul
+{
+    display: flex;
+    
+}
+
+.titulo
+{
+    text-align: center;
+    margin-top: 160px;
+}
+
+a
+{
+    text-decoration: none; /*quita la linea del enlace*/
+    background: #5cb8ff;
+    font-size: 14px;
+    padding: 18px 30px 18px 30px;/*es´paciado interno del elemento*/
+    color: white; /*color letra*/
+}
+
+h1
+{
+    font-size: 60px;
+    margin: 0;
+}
+
+h2
+{
+    font-size: 25px;
+    margin: 0px 0px 40px 0px;
+}

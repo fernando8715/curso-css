@@ -1,0 +1,26 @@
+La etiqueta link se utiliza siempre que vayamos a incluir un atributo externo a html. tiene los atributos 
+"rel" significa la relacion que tiene el link. y "href" la ubicacion del archivo externo.
+
+background, es para color de fondo
+
+Para darle estilos con CSS, se puede hacer llamando a la etiqueta, la clase con el signo . o el id con el signo #.
+
+la etiqueta DIV no tiene valor semantico, quiere decir que no tiene valor, esta etiqueta permite contener elementos para ser manipulados.
+
+las clases pueden haber varias con el mismo nombre, a diferencia del id que debe ser unico. 
+
+la propiedad en css "display: flex", muestra los elementos flexibles para luego ser manipulados por css, esta propiedad se aplica al elemento que los contiene
+
+La propiedad "justify-content" justifica el contenido, tiene varias opciones para justificar.
+
+la propiedad "margin" da un margen al texto, hay diferentes opcionnes.
+
+La propiedad "align-items" permite alinear los elementos contenidos en un contenedor.
+
+La etiqueta header es un contenedor de elementos
+
+elementos en linea <a>, <img>
+
+elementos en bloque <h1>, <p>
+
+cuando tenemos elementos en linea y queremos colocarle un margin top, no va a funcionar si no se conviertan en elemento de bloque, para esto se utiliza la propiedad display inline-block>
